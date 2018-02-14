@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+   
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+ <!-- Stlye sheet reference -->
+    <link rel="stylesheet" href="style.css">
+     <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet"> 
+    
+    <title>Cargo Carriers</title>
+</head>
+<body> 
+  <!-- Begin NavBar -->
+  <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+  <a class="navbar-brand" href="#"><img src="Icons/logo.png" alt=""></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault"          aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+            
+   <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+       <ul class="navbar-nav mr-auto">
+           <li class="nav-item active">
+           <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+           </li>
+              <li class="nav-item active">
+              <a class="nav-link" href="#">Company</a>
+              </li>
+              <li class="nav-item active dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Investors</a>
+                <div class="dropdown-menu" aria-labelledby="dropdown01">
+                  <a class="dropdown-item" href="#"> <h4>Corporate info</h4>
+                     <ul>                       
+                       <a href="#" class="badge badge-light"><li>Corporate Governance</li></a>  
+                       <a href="#"  class="badge badge-light">  <li>Corporate social Responsibility</li> </a>
+                       <a href="#"  class="badge badge-light"> <li>Access to Information manual</li> </a>
+                       </ul>
+                  </a>
+
+                   <a class="dropdown-item" href="#"><h4>Financials</h4>
+                    <ul>
+                    <a href="#"  class="badge badge-light"><li>Integrated report</li> </a>
+                    <a href="#"  class="badge badge-light"><li>Year End Result</li> </a>
+                    <a href="#"  class="badge badge-light"><li>Interim Results</li></a>
+                    <a href="#"  class="badge badge-light"><li>Investor Relations</li></a>     
+                    </ul>
+                   </a>
+
+                  <a class="dropdown-item" href="#"><h4>Sheq</h4>
+                      <ul>
+                      <a href="#"  class="badge badge-light">  <li>Saftey</li></a>
+                      <a href="#"  class="badge badge-light"> <li>Health</li></a>
+                      <a href="#"  class="badge badge-light"> <li>Quality</li></a>
+                      <a href="#" class="badge badge-light"> <li>Accreditation</li></a>
+                      </ul>
+                  </a>
+
+                  <a class="dropdown-item" href="#" ><h4>Financial Stability</h4>
+                    <ul>
+                     <a href="#" class="badge badge-light"> <li>Financial stability</li></a>
+                    </ul>
+                  </a>
+
+                  <li class="nav-item active">
+                   <a class="nav-link" href="#">Industry</a>
+                  </li>
+
+                  <li class="nav-item active">
+                    <a class="nav-link" href="#">Press</a>
+                  </li>
+
+                  <li class="nav-item active">
+                    <a class="nav-link" href="#">Careers</a>
+                  </li>          
+              </div>
+  
+                    </ul>
+                    <form class="form-inline my-2 my-lg-0">
+                     <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                     <!--<button class="btn btn-outline-success my-2 my-sm-0" id="buttonNavBar1" type="submit">Search</button> -->  
+                      <button class="btn btn-outline-success my-2 my-sm-0" type="button" id="buttonNavBar2" data-toggle="modal" data-target="#exampleModal">Contact Us</button>
+                    </form>
+                </div>
+            </nav>
+
+             <!-- End NavBar -->
+            
+              <!-- Pictures section start -->
+                <main role="main">
+                  <!-- Main jumbotron for a primary marketing message or call to action -->
+                  <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+                      <div class="carousel-inner">
+                        <div class="carousel-item active">
+                          <img class="d-block w-100" src="background/002.jpg"  height="653px" width="1200px" alt="First slide">
+                        </div>
+                        <div class="carousel-item">
+                          <img class="d-block w-100" src="background/003.jpeg" height="653px" width="1200px" alt="Second slide">
+                        </div>
+                        <div class="carousel-item">
+                          <img class="d-block w-100" src="background/001.jpeg" height="653px" width="1200px" alt="Third slide">
+                        </div>
+                      </div>
+                      <div class="jumbotron jumbotron-fluid">
+                          <div class="container">
+
+                             <!-- Picture changes end -->
+                              
+                             <!-- List of services as secondary Nav -->
+
+                          <h1 class="display-4" id="headingChange" >Services Offered</h1> 
+                            <div class="container">
+                                <!-- Example row of columns -->
+                                <div class="row">
+                                  <div class="col-md-3">
+                                   
+                                    <div class="card text-white bg-warning mb-3" style="max-width: 18rem;">
+                                        <div class="card-header"><img src="Icons/chemcial.png" alt="" height="40px" width="40px"></div>
+                                        <div class="card-body">
+                                          <h5 class="card-title">Chemicals</h5>
+                                          <p class="card-text">Transporting hazardous chemicals requires professional care. Use world-class bulk vehicle operators  ...</p>
+                                          <a href="#" class="btn btn-primary"><span id="animatebutton"></span>Read more</a>
+                                        </div>
+                                      </div>
+                                  </div>
+                                  <div class="col-md-3">
+                                    
+                                    <div class="card text-white bg-warning mb-3" style="max-width: 18rem;">
+                                        <div class="card-header"><img src="Icons/fuel.png" alt="" height="40px" width="40px"></div>
+                                        <div class="card-body">
+                                          <h5 class="card-title">Fuel</h5>
+                                          <p class="card-text">Transporting Fuel requires professional care. Only world-class bulk vehicle operators can be trusted  ...</p>
+                                          <a href="#" class="btn btn-primary">Read more</a>
+                                        </div>
+                                      </div>
+                                  </div>
+                                  <div class="col-md-3">
+                                   
+                                    <div class="card text-white bg-warning mb-3" style="max-width: 18rem;">
+                                        <div class="card-header"><img src="Icons/fire.png" alt="" height="40px" width="40px"></div>
+                                        <div class="card-body">
+                                          <h5 class="card-title">Gas</h5>
+                                          <p class="card-text">Exceptional service and unwavering safety levels are fundamental to the way gas producers do business ...</p>
+                                          <a href="#" class="btn btn-primary">Read more</a>
+                                        </div>
+                                      </div>
+                                  </div>
+                                  <div class="col-md-3">
+                                     
+                                      <div class="card text-white bg-warning mb-3" style="max-width: 18rem;">
+                                          <div class="card-header"><img src="Icons/mining.png" alt="mining" height="40px" width="40px"></div>
+                                          <div class="card-body">
+                                            <h5 class="card-title">Mining</h5>
+                                            <p class="card-text">The mining sector has in recent years come under increasing pressure to upgrade and enforce strict mining regulations ...</p>
+                                            <a href="#" class="btn btn-primary">Read more</a>
+                                          </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3">
+                                       
+                                        <div class="card text-white bg-warning mb-3" style="max-width: 18rem;">
+                                            <div class="card-header"><img src="Icons/powder.png" alt="mining" height="40px" width="40px"></div>
+                                            <div class="card-body">
+                                              <h5 class="card-title">Powders</h5>
+                                              <p class="card-text">Eskom, Transnet the looming water crisis, the ongoing Goverment-led investment in housing, various other infstructures ...</p>
+                                              <a href="#" class="btn btn-primary">Read more</a> 
+                                            </div>
+                                          </div>
+                                      </div>
+                                      <div class="col-md-3">
+                                          
+                                          <div class="card text-white bg-warning mb-3" style="max-width: 18rem;">
+                                              <div class="card-header"><img src="Icons/steel.png" alt="mining" height="40px" width="40px"></div>
+                                              <div class="card-body">
+                                                <h5 class="card-title">Steel</h5>
+                                                <p class="card-text">Goverment expects to spend R800bn on infastructure by 2014, Add to this the plans for private sector fixed investments expenditure ...</p>
+                                                <a href="#" class="btn btn-primary">Read more</a> 
+                                              </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-3">
+                                           
+                                            <div class="card text-white bg-warning mb-3" style="max-width: 18rem;">
+                                                <div class="card-header"><img src="Icons/sugar.png" alt="mining" height="40px" width="40px"></div>
+                                                <div class="card-body">
+                                                  <h5 class="card-title">Sugar</h5>
+                                                  <p class="card-text">Sugar production is on the rise, Slowly but surely, the protective tariffs and quotas of the world’s high-cost sugar production regions are starting to relax ...</p>
+                                                  <a href="#" class="btn btn-primary">Read more</a> 
+                                                </div>
+                                              </div>
+                                          </div>
+                                          <div class="col-md-3">
+                                              
+                                           <div class="card text-white bg-warning mb-3" style="max-width: 18rem;">
+                                              <div class="card-header"><img src="Icons/supply_chain.png" alt="mining" height="40px" width="40px"></div>
+                                                  <div class="card-body">
+                                                    <h5 class="card-title">Supply Chain Solutions</h5>
+                                                    <p class="card-text">Based on the Theory of Constraints philosophy, we have developed a methedology for companies to optimise their supply chain solutions ...</p>
+                                                    <a href="#" class="btn btn-primary">Read more</a> 
+                                                  </div>
+                                                </div>
+                                            </div>
+                                </div>
+                        
+                                
+                        
+                              </div> <!-- /container -->
+                            
+                            </div>
+                          </div>
+                        <!-- Services section ends -->
+
+              <!-- Modal For Contact Form -->
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Contact Us</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+            <ul>
+                <li><i class="fas fa-map-marker"></i>  11a Grace Road Mountainview, Observatory 2198  </li>
+                <br>
+                <li><i class="fas fa-phone"></i>  +27 11 485 8700 </li>
+                <br>
+                <li><i class="fas fa-envelope"></i> marketing@cargocarriers.co.za</li>
+     
+              </ul> 
+
+        </div>
+        <div class="modal-footer"> <!-- Form that submits with Google Firebase -->
+            <form id="contact" action="" method="post">
+                <h3>Quick Contact</h3>
+                <h4>Contact us today, and get reply within 24 hours!</h4>
+                <fieldset>
+                  <input placeholder="Your name" id="formName" type="text" tabindex="1" required autofocus>
+                </fieldset>
+                <fieldset>
+                  <input placeholder="Your Email Address" id="formEmail" type="email" tabindex="2" required>
+                </fieldset>
+                <fieldset>
+                  <input placeholder="e.g. 074 656 5366"  id="formPhone" type="tel" tabindex="3" required>
+                </fieldset>
+                <fieldset>
+                  <textarea placeholder="Type your Message Here...." id="formTextArea" tabindex="4" required></textarea>
+                </fieldset>
+                <fieldset>
+                  <button class="formSubmitFireBase" name="submit" type="submit" id="contact-submit" > <span>Submit</span></button>
+                </fieldset>
+              </form>
+        </div>
+      </div>
+    </div>
+  </div>          
+</main>
+
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://www.gstatic.com/firebasejs/4.9.1/firebase.js"></script>
+   <script src="main.js"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    
+</body>
+</html>

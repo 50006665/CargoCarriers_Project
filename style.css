@@ -1,0 +1,165 @@
+
+.navbar-brand { padding: 0;}
+
+body {  font-family : 'PT Sans', sans-serif;}
+
+    img{       
+            max-width: 100%;
+            height: auto;
+    }
+
+.display-4 {
+
+    text-align: center;
+    padding-bottom: 5%;    
+}
+
+#buttonNavBar1 {
+    margin-left: 10px;
+}
+
+#buttonNavBar2 {
+    margin-right: 10px;
+}
+
+.jumbotron {
+
+    animation: pulse 30s infinite;
+    animation: pulse 30s infinite;
+}
+
+    @keyframes pulse {
+
+        0% {background: #e98449da }
+        25%{ background: #f06508}
+        50% {background: #c4681e }
+        75% {background: #f85509 }
+        100% {background: #e7894a }     
+    }
+
+    @keyframes pulse {
+
+        0% {background: #e98449da }
+        25%{ background: #f06508}
+        50% {background: #c4681e }
+        75% {background: #f85509 }
+        100% {background: #e7894a }       
+    }
+
+
+p{
+         font-size: 14px;
+        font-family: Georgia, 'Times New Roman', Times, serif
+}
+
+.card-title { text-align: center;}
+
+.card-header { text-align: center;}
+
+.dropdown-toggle::after { display:none}
+
+.btn-primary{
+
+    transform: translate(-10%, -10%);
+    background: #262626;
+    text-align: center;
+    color: #ff0;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;   
+}
+
+#headingChange {
+
+        letter-spacing: 5px;
+        text-shadow: 2px 2px 2px #CCCCCC;
+        text-shadow: 0 0 5px #A5F1FF, 0 0 10px #A5F1FF,
+             0 0 20px #A5F1FF, 0 0 30px #A5F1FF,
+             0 0 40px #A5F1FF;
+}
+
+.dropdown-menu {background-color: rgba(86, 91, 92, 0.836);}
+
+li{list-style: none;}
+
+#contact input[type="text"], #contact input[type="email"], #contact input[type="tel"], #contact input[type="url"], #contact textarea, #contact button[type="submit"] { font:400 12px/16px "Open Sans", Helvetica, Arial, sans-serif; }
+
+#contact {
+	background:#F9F9F9;
+	padding:25px;
+	margin:50px 0;
+}
+
+#contact h3 {
+	color: #F96;
+	display: block;
+	font-size: 30px;
+	font-weight: 400;
+}
+
+#contact h4 {
+	margin:5px 0 15px;
+	display:block;
+	font-size:13px;
+}
+
+fieldset {
+	border: medium none !important;
+	margin: 0 0 10px;
+	min-width: 100%;
+	padding: 0;
+	width: 100%;
+}
+
+#contact input[type="text"], #contact input[type="email"], #contact input[type="tel"], #contact input[type="url"], #contact textarea {
+	width:100%;
+	border:1px solid #CCC;
+	background:#FFF;
+	margin:0 0 5px;
+	padding:10px;
+}
+
+.formSubmitFireBase {
+    border-radius: 4px;
+    background-color: #f4511e;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 28px;
+    padding: 20px;
+    width: 200px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+  }
+  
+  .formSubmitFireBase span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .formSubmitFireBase span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .formSubmitFireBase:hover span {
+    padding-right: 25px;
+  }
+  
+  .formSubmitFireBase:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+
+.map{
+
+    height: 500px;
+    width: 100%;
+
+}
